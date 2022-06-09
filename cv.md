@@ -1,6 +1,6 @@
 # Redzko Aliakse
 
-![alt text](/rsschool-cv/foto.png)
+![Foto](/rsschool-cv/foto.png);
 
 # email: *aleharedko@gmail.com*
 # Telefon: +37060308183
