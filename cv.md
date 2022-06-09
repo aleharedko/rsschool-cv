@@ -1,12 +1,12 @@
-# Redzko Aliakse#
+# Redzko Aliakse
 
 ![alt text](/rsschool-cv/foto.png)
 
-# email: *aleharedko@gmail.com*#
-# Telefon: +37060308183#
-# Discord: Aliaksei(@aleharedko)#
+# email: *aleharedko@gmail.com*
+# Telefon: +37060308183
+# Discord: Aliaksei(@aleharedko)
 
-# Motivated, purposeful and promising young man, 26 years old. The level of programming is amateur, I know a little bit of everything: html, JavaScript, Json... I have a higher education and a completed master's degree. I am interested in the IT sphere more because of the environment that many young and motivated people are involved in it!#
+# Motivated, purposeful and promising young man, 26 years old. The level of programming is amateur, I know a little bit of everything: html, JavaScript, Json... I have a higher education and a completed master's degree. I am interested in the IT sphere more because of the environment that many young and motivated people are involved in it!
 
 ## Skills: ##
 ### *Basic HTML ownership
@@ -15,4 +15,12 @@
 ### * I know how to parse))
 
 # Example of problem solving #
-![alt text](/rsschool-cv/codewars.bmp)
+
+```javascript 
+
+function multiply(a, b) {
+    return a*b;
+}
+
+console.log(multiply);
+```
