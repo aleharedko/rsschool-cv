@@ -1,0 +1,18 @@
+body {
+
+    font-family: "Helvetica", Sans-Serif;
+  
+    background-image: url("/rsschool-cv/fon.jpg");
+    background-size: 100%; 
+    
+  }
+  
+  p {
+
+    color: #112d4e;
+  
+  }
+
+  .text {
+    text-align:  center;
+   }
