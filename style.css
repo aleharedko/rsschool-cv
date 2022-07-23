@@ -5,13 +5,14 @@ body{
 
 .header_container{
     margin: 0px 156px;
+    width: 1440px;
+   height: 765px;
 }
 
 .header{
    background-image: url(/assets/img/bg.jpg);
    height: 100vh;
-  /* width: 1440px;
-    height: 90px;*/
+   
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -154,6 +155,65 @@ body{
     margin-top: 80px;
     margin-left: 414px;
     margin-bottom: 40px;
+    color: #F2785C;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.after_header_three_steps_table{
+    display: flex;
+    justify-content: space-around;
+}
+
+.table_img_three_steps{
+    border: 1px solid #F2785C;
+    background-color: #F2785C;
+    border-radius: 16px;
+    height: 100px;
+    width: 100px;
+}
+
+.table_img_three_steps_one{
+   /* padding-left: 204px;*/
+}
+
+.table_img_three_steps_two{
+    padding: ;
+}
+
+.table_img_three_steps_three{
+    padding: ;
+}
+
+/*.table_img_three_steps_one{
+    padding: 28px 25px 27px 25px;
+}
+
+.table_img_three_steps_two{
+    padding: 24px;
+}
+
+.table_img_three_steps_three{
+    padding: 28px 20px 27px;
+}*/
+
+.after_header_three_steps_table_text{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 130px;
+}
+
+.text_three_steps{
+    color: #0D606F;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.popular_destinations_text{
+    margin-top: 97px;
+    margin-left: 470px;
+    margin-bottom: 46px;
     color: #F2785C;
     font-size: 40px;
     font-weight: 500;
