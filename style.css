@@ -218,3 +218,12 @@ body{
     font-size: 40px;
     font-weight: 500;
 }
+
+.swiper {
+    width: 1270px;
+    height: 800px;
+  }
+
+  .swiper-slide{
+    position: relative;
+  }
