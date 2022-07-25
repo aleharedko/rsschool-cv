@@ -1,11 +1,11 @@
-const swiper = new Swiper('."swiper-slide', {
+const swiper = new Swiper('."swiper', {
     
     direction: 'vertical',
     loop: true,
   
     pagination: {
       el: '.swiper-pagination',
-    },
+    }
   
     
     navigation: {
@@ -14,7 +14,7 @@ const swiper = new Swiper('."swiper-slide', {
     },
   
     
-   /* scrollbar: {
+   scrollbar: {
       el: '.swiper-scrollbar',
-    },*/
+    }
   });
