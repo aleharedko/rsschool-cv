@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+}
+
+.header{
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav{
+    background-image: url(/assents/menu_FILL0_wght400_GRAD0_opsz48.png);
+}
