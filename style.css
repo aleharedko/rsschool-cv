@@ -10,8 +10,56 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
 }
 
 .nav{
-    background-image: url(/assents/menu_FILL0_wght400_GRAD0_opsz48.png);
+    background-image: url(/assents/icons8-меню-48.png);
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: auto;
+}
+
+.myFoto{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 150px;
+}
+
+.headerLine{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+   
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pictures{
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.hrefClick{
+    text-decoration: none;
+    color: white;
 }
