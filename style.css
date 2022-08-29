@@ -1,8 +1,16 @@
 body{
     background-color: black;
     color: aliceblue;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
 }
+
+hr{
+    border: none;
+    background-color: white;
+    height: 1px;
+    width: 100%;
+}
+
 
 .header{
     height: 300px;
@@ -52,6 +60,7 @@ body{
     border-radius: 10px;
     float: left;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .contact{
@@ -59,7 +68,77 @@ body{
     flex-direction: column;
 }
 
+.contact, .hardSkills, .softSkills{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .hrefClick{
     text-decoration: none;
     color: white;
+}
+
+.headerContent{
+    margin-left: 40px;
+}
+
+.mainInformation{
+    background-color: rgb(35, 32, 32);
+}
+
+.mainInformationContainer{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.asideContainer{
+    background-color: rgb(25, 24, 24);
+    width: 250px;
+    height: 100%;
+}
+
+.skillsItemsLisst{
+    display: flex;
+    flex-direction: column;
+}
+
+.headerContentText{
+    font-family: 'Questrial', sans-serif
+}
+
+.skills_html{
+    background-image: url(/assents/html.svg);
+}
+
+.skills_js{
+    background-image: url(/assents/javascript.svg);
+}
+
+.skills_css{
+    background-image: url(/assents/css.svg);
+}
+
+.skills_figma{
+    background-image: url(/assents/figma.svg);
+}
+
+.skills_git{
+    background-image: url(/assents/github.svg);
+}
+
+.skills_language{
+    background-image: url(/assents/png-clipart-speech-computer-icons-english-person-language-mimosa-tree-english-text.png);
+}
+
+.skills_items{
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 48px;
+    margin-bottom: 10px;
+    min-height: 30px;
+    padding-left: 40px;
+    background-size: 30px;
+    background-position: left center;
 }
