@@ -9,12 +9,16 @@ hr{
     background-color: white;
     height: 1px;
     width: 100%;
+    margin: 0px;
 }
 
+h1{
+    font-weight: 300;
+}
 
 .header{
     height: 300px;
-    width: 100%;
+    width: 100%;  
     margin: 0;
     padding: 0;
     display: flex;
@@ -24,6 +28,21 @@ hr{
 .nav{
     background-image: url(/assents/icons8-меню-48.png);
     background-repeat: no-repeat;
+}
+
+.h1HeaderContentText{
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-right: 142px;
+    position: relative;
+    animation: shadow  2s infinite ease-in-out;
+}
+
+.h2HeaderContentText{
+    font-size: 35px;
+    font-weight: 300;
+    position: relative;
+    margin: 10px 0px 28px 44px;
 }
 
 .wrapper{
@@ -38,13 +57,16 @@ hr{
     width: 300px;
     height: 300px;
     border: 1px solid black;
-    border-radius: 150px;
+    float: right;
+    
 }
 
 .headerLine{
+    width: 1000px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    justify-content: flex-start;
    
 }
 
@@ -61,6 +83,30 @@ hr{
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+.liAsideContactsMail{
+    background-image: url(/assents/мэйл.png);
+}
+
+.liAsideContactsTelefon{
+    background-image: url(/assents/телефон.jpg);
+}
+
+.liAsideContactsLinkedin{
+    background-image: url(/assents/линкидин.png);
+}
+
+.liAsideContactsDiscord{
+    background-image: url(/assents/дискорд.png);
+}
+
+.liAsideContacts{
+    background-repeat: no-repeat;
+    float: left center;
+    background-size: 48px;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact{
@@ -101,6 +147,7 @@ hr{
 .skillsItemsLisst{
     display: flex;
     flex-direction: column;
+    padding-left: 0px;
 }
 
 .headerContentText{
