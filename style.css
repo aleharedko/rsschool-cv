@@ -25,9 +25,17 @@ h1{
     justify-content: center;
 }
 
-.nav{
-    background-image: url(/assents/icons8-меню-48.png);
-    background-repeat: no-repeat;
+.navBar{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgb(11, 11, 11);
+}
+
+.navBar_wrap{
+    display: flex;
+    justify-content: space-between;
 }
 
 .h1HeaderContentText{
@@ -75,15 +83,7 @@ h1{
     flex-direction: row-reverse;
 }
 
-.pictures{
-    width: 48px;
-    height: 48px;
-    border: 1px solid black;
-    border-radius: 10px;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
+
 
 .liAsideContactsMail{
     background-image: url(/assents/мэйл.png);
@@ -101,12 +101,22 @@ h1{
     background-image: url(/assents/дискорд.png);
 }
 
-.liAsideContacts{
-    background-repeat: no-repeat;
-    float: left center;
-    background-size: 48px;
+.ulAsideContacts{
     display: flex;
     flex-direction: column;
+    padding-left: 0px;
+}
+
+.liAsideContacts{
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 48px;
+    margin-bottom: 10px;
+    min-height: 30px;
+    padding-left: 40px;
+    background-size: 30px;
+    background-position: left center;
 }
 
 .contact{
@@ -188,4 +198,32 @@ h1{
     padding-left: 40px;
     background-size: 30px;
     background-position: left center;
+}
+
+.softSkillsList{
+    padding-left: 0px;
+}
+
+
+.footer{
+    width: 1000px;
+    height: 80px;
+    margin: auto;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.textFooter{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.rs_school_js{
+    width: 80px;
+    height: 80px;
 }
