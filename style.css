@@ -16,6 +16,11 @@ h1{
     font-weight: 300;
 }
 
+strong{
+    font-weight: 300;  
+    font-size: 30px;
+}
+
 .header{
     height: 300px;
     width: 100%;  
@@ -226,4 +231,14 @@ h1{
 .rs_school_js{
     width: 80px;
     height: 80px;
+}
+
+.exampleCodBackspace{
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+}
+
+pre{
+    display: inline-block
 }
