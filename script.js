@@ -20,8 +20,17 @@ document.querySelector('.btnLeft').addEventListener('click', function(){
 })
 
 const hamb = document.querySelector('#hamb');
-const popup = document.querySelector('.popup');
+const popup = document.querySelector('#popup');
+const menu = document.querySelector('#menu').cloneNode(1);
 
-hamb.addEventListener('click', function() {
-    
-})
+hamb.addEventListener('click', hambHandler);
+
+function hambHandler(e) {
+    e.preventDefault();
+    popup.classList.toggle('open');
+    rendelPopup();
+};
+
+function rendelPopup() {
+    popup.appendChild(menu);
+}
