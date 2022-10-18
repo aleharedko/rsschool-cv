@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assents/my foto.jpg" type="image/jpg" sizes="32x32">
 </head>
 <body>
     <div class="wrapper">
@@ -31,7 +32,7 @@
                 <ul class="menu">
                     <li><a href="#" class="navItem">About my self</a></li>
                     <li><a href="#" class="navItem">Education</a></li>
-                    <li><a href="#" class="navItem">Video Presentation</a></li>
+                    <li><a href="#" class="navItem">Presentation</a></li>
                     <li><a href="#" class="navItem">Example Code</a></li>
                 </ul>
                 </div>
@@ -60,7 +61,7 @@
                 <aside class="aside">
                     <div class="asideContainer">
                         <section class="contact">
-                            <p class="nameTeg"><strong>Contacts</strong></p>
+                            <h2>Contacts</h2>
                             <hr>
                             <ul class="ulAsideContacts">
                                 <li class="liAsideContacts liAsideContactsMail">aleharedko@gmail.com</li>
@@ -71,7 +72,7 @@
                         </section>
 
                         <section class="hardSkills">
-                            <p class="nameTeg"><strong>Hard Skills</strong></p>
+                            <h2>Hard Skills</h2>
                             <hr>
                             <ul class="skillsItemsLisst">
                                 <li class="skills_items skills_html">HTML </li>
@@ -84,7 +85,7 @@
                         </section>
 
                         <section class="softSkills">
-                            <p class="nameTeg"><strong>Soft skills</strong></p>
+                            <h2>Soft skills</h2>
                             <hr>
                             <ul class="softSkillsList">
                                 <li class="">Purposeful</li>
@@ -100,7 +101,7 @@
                     <div class="mainInformationContainer">
                         <div class="shortlyAboutMySelf">
                             <section>
-                                <p class="nameTeg"><strong>About my self</strong> </p>
+                                <h2>About my self</h2>
                                 <hr>
                                 <div class = "textShortlyAboutMySelf">
                                     <p>I am a graduate of the Belarusian Pedagogical University. My specialty is chemistry and biology. Master of Chemical Sciences. And now I'm a beginner Front-End developer!!!</p>
@@ -113,26 +114,46 @@
                             
                         <div class="educationContant">
                                 <section class="education">
-                                    <p class="nameTeg"><strong>Education</strong></p>
+                                    <h2>Education</h2>
                                     <hr>
                                     <ul class="educationList">
-                                        <li>The Rolling Scopes (JS / FRONT-END. STAGE 0 )</li>
-                                        <li>The Rolling Scopes (JS / FRONT-END. STAGE 1 / passing at the moment)</li>
-                                        <li></li>
-                                        <li>Udemy (Полный курс по JavaScript + React - с нуля до результата / passing at the moment)</li>
+                                        <li>Code-basics: JavaScript</li>
+                                        <li>Code-basics:CSS</li>
+                                        <li>Code-basics: HTML</li>
+                                        <li>The Rolling Scopes: JS / FRONT-END. STAGE 0 (passing at the moment)</li>
+                                        <li>The Rolling Scopes: JS / FRONT-END. STAGE 1 (passing at the moment)</li>
+                                        <li>The Rolling Scopes: React 2022 Q3 (passing at the moment)</li>   
+                                        <li>Udemy: Полный курс по JavaScript + React - с нуля до результата (passing at the moment)</li>
                                     </ul>
                                 </section>
                         </div>
 
-                        <div class="videoDemonstrationMyself">
-                            <p><strong>Presentation</strong> </p>
+                        <div class="demonstrationMyself">
+                            <h2>Presentation</h2>
                             <hr>
-                            <video></video>
+                            <div class="sliderContainer">                            
+                                <div class="slider">
+                                    <div class="slider-line">
+                                        <img src="/assents/Screenshot_1.png" alt="ferst slid" class="imgSlider">
+                                        <img src="/assents/Screenshot_2.png" alt="why me1" class="imgSlider">
+                                        <img src="/assents/Screenshot_3.png" alt="why me2" class="imgSlider">
+                                        <img src="/assents/Screenshot_4.png" alt="negative sid" class="imgSlider">
+                                        <img src="/assents/Screenshot_5.png" alt="summing up" class="imgSlider"> 
+                                        <img src="/assents/Screenshot_6.png" alt="success" class="imgSlider">
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <button class="btnLeft">Left</button>
+                            <button class="btnRight">Rigth</button>
+                            <script src="/script.js" class="btnRight" ></script>
+                           
                         </div>
 
                         <div class="exampleCoD">
                             <section class="example">
-                                <p class="nameTeg"><strong>Code Example</strong> </p>
+                                <h2>Code Example</h2>
                                 <hr>
                                     <div class="exampleCodContainer">
                                         <div class="exampleCodBackspace">
@@ -145,7 +166,7 @@
                                                     .map(m => m.trim()[0].toUpperCase())
                                                     .sort()
                                                     .join('')
-                                                    }
+                                                    } 
                                                 </code>
                                             </pre> 
                                         </div>
