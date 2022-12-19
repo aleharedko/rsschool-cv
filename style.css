@@ -131,7 +131,7 @@ h2{
 }
 
 .wrapper{
-    width: 1000px;
+    width: 1100px;
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -278,28 +278,24 @@ h2{
 }
 
 .softSkillsList{
-    padding-left: 0px;
+    padding-left: 20px;
 }
 
+.exampleCodBackspace{
+    background-color: black;
+   
+}
 
 .footer{
     height: 80px;
-    margin: auto;
+    width: 1100px;
+    /*margin: auto;*/
     background-color: aliceblue;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap; 
 }
-
-.footerContainer{
-    margin: auto;
-    width: 1100px;
-    height: 80px;
-    text-align: center;
-}
-
-
 
 .textFooter{
     font-family: 'Roboto', sans-serif;
