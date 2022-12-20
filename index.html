@@ -30,10 +30,10 @@
                     </div>
                 </div>
                 <ul class="menu" id="menu">
-                    <li><a href="#" class="navItem">About my self</a></li>
-                    <li><a href="#" class="navItem">Education</a></li>
-                    <li><a href="#" class="navItem">Presentation</a></li>
-                    <li><a href="#" class="navItem">Example Code</a></li>
+                    <li><a href="#About_my_self" class="navItem">About my self</a></li>
+                    <li><a href="#Education" class="navItem">Education</a></li>
+                    <li><a href="#Presentation" class="navItem">Presentation</a></li>
+                    <li><a href="#Example_Code" class="navItem">Example Code</a></li>
                 </ul>
                 </div>
             </div>      
@@ -99,7 +99,7 @@
                     <div class="mainInformationContainer">
                         <div class="shortlyAboutMySelf">
                             <section>
-                                <h2>About my self</h2>
+                                <h2 id="About_my_self">About my self</h2>
                                 <hr>
                                 <div class = "textShortlyAboutMySelf">
                                     <p>I am a graduate of the Belarusian Pedagogical University. My specialty is chemistry and biology. Master of Chemical Sciences. And now I'm a beginner Front-End developer!!!</p>
@@ -113,7 +113,7 @@
                             
                         <div class="educationContant">
                                 <section class="education">
-                                    <h2>Education</h2>
+                                    <h2 id="Education">Education</h2>
                                     <hr>
                                     <ul class="educationList">
                                         <li>Code-basics: JavaScript</li>
@@ -128,7 +128,7 @@
                         </div>
 
                         <div class="demonstrationMyself">
-                            <h2>Presentation</h2>
+                            <h2 id="Presentation">Presentation</h2>
                             <hr>
                             <div class="sliderContainer">                            
                                 <div class="slider">
@@ -152,20 +152,31 @@
 
                         <div class="exampleCoD">
                             <section class="example">
-                                <h2>Code Example</h2>
+                                <h2 id="Example_Code">Code Example</h2>
                                 <hr>
                                     <div class="exampleCodContainer">
                                         <div class="exampleCodBackspace">
                                             <pre>
                                                 <code>
-                                                    const createDreamTeam = (members) => {
-                                                    if (!Array.isArray(members)) return false
-                                                    return members
-                                                    .filter(m => typeof m === 'string')
-                                                    .map(m => m.trim()[0].toUpperCase())
-                                                    .sort()
-                                                    .join('')
-                                                    } 
+    let offset = 0;
+    const sliderLine = document.querySelector('.slider-line');
+
+    document.querySelector('.btnRight').addEventListener('click', function(){
+    offset = offset + 760;
+    if (offset > 3800){
+        offset = 0;
+    }
+
+    sliderLine.style.left = - offset + 'px';
+    });
+
+    document.querySelector('.btnLeft').addEventListener('click', function(){
+    offset = offset - 760;
+    if (offset < 0){
+        offset = 3800;
+    }
+    sliderLine.style.left = - offset + 'px';
+    })
                                                 </code>
                                             </pre> 
                                         </div>

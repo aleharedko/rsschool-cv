@@ -33,4 +33,5 @@ function hambHandler(e) {
 
 function rendelPopup() {
     popup.appendChild(menu);
-}
+};
+
