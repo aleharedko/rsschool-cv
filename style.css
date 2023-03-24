@@ -352,9 +352,11 @@ h2{
 }
 
 .btnLeft{
-   background-color: black color: ;
+   background-image: url(/assents/arrow_back_ios_FILL0_wght400_GRAD0_opsz48.png);
+   
 }
 
 .btnRight{
-
+    background-image: url(/assents/arrow_forward_ios_FILL0_wght400_GRAD0_opsz48.png);
+    
 }
