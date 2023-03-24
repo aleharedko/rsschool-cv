@@ -345,3 +345,16 @@ h2{
     width: 760px;
     height: 430px;
 }
+
+.positionButton{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btnLeft{
+   background-color: black color: ;
+}
+
+.btnRight{
+
+}
