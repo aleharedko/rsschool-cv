@@ -351,13 +351,16 @@ h2{
     justify-content: space-evenly;
 }
 
-/*.btnLeft{
-   background-image: url(/assents/arrow_back_ios_FILL0_wght400_GRAD0_opsz48.png);
-   
+.btnLeft :hover{ /* при добавлении свойства hоver, изменился размер и цвет квадрата...*/
+   background-color:  grey;
+   font-size: 40px;
+   /*padding: 5px;*/
+   border-radius: 4px;
+
 }
 
 .btnRight{
-    background-image: url(/assents/arrow_forward_ios_FILL0_wght400_GRAD0_opsz48.png);
+    background-color:  grey;
     
-}*/
+}
 
