@@ -351,16 +351,32 @@ h2{
     justify-content: space-evenly;
 }
 
-.btnLeft :hover{ /* при добавлении свойства hоver, изменился размер и цвет квадрата...*/
-   background-color:  grey;
-   font-size: 40px;
-   /*padding: 5px;*/
+.btnLeft { 
+   background-color:  rgb(183, 233, 251);
+   padding: 15px 32px;
    border-radius: 4px;
+   text-align:center;
+}
 
+.btnLeft :hover{
+    background-color:  rgb(171, 171, 171);
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(189, 189, 189, 0.24), 0 17px 50px 0 rgba(175, 175, 175, 0.19);
+    color: white;
 }
 
 .btnRight{
-    background-color:  grey;
-    
+    background-color: rgb(183, 233, 251);
+    border-radius: 4px;
+    padding: 15px 32px;
+    text-align:center;
+}
+
+
+.btnRight:hover{
+    background-color:  rgb(171, 171, 171);
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(189, 189, 189, 0.24), 0 17px 50px 0 rgba(175, 175, 175, 0.19);
+    color: white;
 }
 
