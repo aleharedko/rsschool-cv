@@ -358,7 +358,7 @@ h2{
    text-align:center;
 }
 
-.btnLeft :hover{
+.btnLeft:hover{
     background-color:  rgb(171, 171, 171);
     transition-duration: 0.4s;
     box-shadow: 0 12px 16px 0 rgba(189, 189, 189, 0.24), 0 17px 50px 0 rgba(175, 175, 175, 0.19);
